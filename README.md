@@ -3,8 +3,8 @@
 *Run on MAC with M1-Chip*
 
 
-## Init llama
-- Install Olama: [https://ollama.com/download](https://ollama.com/download)
+## Init llama with ollama
+- Install Ollama: [https://ollama.com/download](https://ollama.com/download)
 - run `ollama run llama3.2` to download the model
 - get bearer (later `BEARER_TOKEN`) for use in curl requests
 
