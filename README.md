@@ -6,7 +6,20 @@
 ## Init llama with ollama
 - Install Ollama: [https://ollama.com/download](https://ollama.com/download)
 - run `ollama run llama3.2` to download the model
+
+
+## Install OpenWebUI
+```
+git clone https://github.com/open-webui/open-webui.git
+cd open-webui
+#pipx install open-webui
+docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:main
+```
+
+
 - get bearer (later `BEARER_TOKEN`) for use in curl requests
+
+
 
 
 
