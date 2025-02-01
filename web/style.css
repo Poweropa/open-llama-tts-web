@@ -1,0 +1,54 @@
+
+html {
+    font-size:2rem;
+    
+}
+
+body {
+    margin:0;
+    background:#333;
+    color:#fff;
+}
+
+button {
+    &.working {
+        outline:2px red dashed !important;
+        pointer-events: none;
+        color:#aaa;
+    }
+}
+
+
+#eingabe {
+    width:80vw;
+    padding:1vw;
+    font-size: 1rem;
+}
+button {
+    width:17vw;
+    padding:1vw;
+    font-size: 1rem;
+}
+
+#result {
+    width:calc(100% - 4vw);
+    display: block;
+    outline:1px black solid;
+    padding:2vw;
+    margin-top:2vh;
+}
+
+#audio-player  {
+    width:-webkit-fill-available;
+    padding:2vw;
+}
+
+.mp3link {
+    display: block;
+    font-size:0.7rem;
+}
+
+select {
+    font-size:1rem;
+    padding:1vw;
+}
